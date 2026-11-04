@@ -1,5 +1,16 @@
+import { Link } from 'react-router-dom';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { CANDIDATE } from '../data/config';
+
+const base = import.meta.env.BASE_URL;
+
+const NAV = [
+  { label: 'Propostas', href: `${base}#propostas` },
+  { label: 'Quem é', href: `${base}#sobre` },
+  { label: 'Podcast', href: `${base}#podcast` },
+  { label: 'Enviar demanda', href: `${base}#demanda` },
+  { label: 'Mural', href: `${base}#mural` },
+];
 
 export default function Footer() {
   return (
@@ -26,6 +37,21 @@ export default function Footer() {
           )}
         </div>
       </div>
+
+      <nav
+        aria-label="Links do rodapé"
+        className="max-w-6xl mx-auto px-5 mt-6 pt-6 border-t border-white/10 flex flex-wrap gap-x-6 gap-y-2 text-sm"
+      >
+        {NAV.map((l) => (
+          <a key={l.label} href={l.href} className="hover:text-sky-300 transition-colors">
+            {l.label}
+          </a>
+        ))}
+        <Link to="/links" className="font-semibold text-sky-300 hover:text-white transition-colors">
+          Todos os links
+        </Link>
+      </nav>
+
       <p className="max-w-6xl mx-auto px-5 mt-6 text-xs text-white/50">
         © {new Date().getFullYear()} {CANDIDATE.name}. Os dados pessoais enviados no formulário não são publicados.
       </p>

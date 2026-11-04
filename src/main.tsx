@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App.tsx';
+import BioLink from './pages/BioLink.tsx';
 import NotFound from './pages/NotFound.tsx';
 import ScrollRestoration from './components/ScrollRestoration.tsx';
 
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')!).render(
       <ScrollRestoration />
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/links" element={<BioLink />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
