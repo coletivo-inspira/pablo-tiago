@@ -8,7 +8,7 @@ import ScrollRestoration from './components/ScrollRestoration.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollRestoration />
       <Routes>
         <Route path="/" element={<App />} />

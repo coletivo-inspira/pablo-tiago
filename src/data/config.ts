@@ -8,7 +8,7 @@ export const CANDIDATE = {
   party: 'PARTIDO', // TODO
   instagram: 'https://www.instagram.com/pablotiago/',
   instagramHandle: '@pablotiago',
-  photo: '/pablo.jpg', // coloque a foto em public/pablo.jpg
+  photo: `${import.meta.env.BASE_URL}pablo.jpg`, // coloque a foto em public/pablo.jpg
   whatsapp: '', // ex.: 5531999999999 (opcional)
 };
 

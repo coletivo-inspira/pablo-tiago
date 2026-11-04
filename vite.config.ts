@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/',
+  // GitHub Pages serve em /pablo-tiago/. Se usar domínio próprio, troque para '/'.
+  base: '/pablo-tiago/',
 });
