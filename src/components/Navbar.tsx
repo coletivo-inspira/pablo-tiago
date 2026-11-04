@@ -15,12 +15,9 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-ice-200">
       <div className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <span className="w-9 h-9 rounded-lg bg-navy-900 text-white font-sora font-bold text-sm grid place-items-center">
-            PT
-          </span>
           <span className="leading-tight">
-            <span className="block font-sora font-bold text-sm text-navy-900 uppercase">{CANDIDATE.name}</span>
-            <span className="block text-[11px] text-navy-800/70 uppercase tracking-wide">Belo Horizonte</span>
+            <span className="block text-[11px] font-semibold text-brand-600 uppercase tracking-widest">Repórter</span>
+            <span className="block font-sora font-extrabold text-lg text-navy-900 uppercase">{CANDIDATE.name}</span>
           </span>
         </a>
 
