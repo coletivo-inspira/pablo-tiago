@@ -3,7 +3,7 @@ import { CANDIDATE } from '../data/config';
 
 // TODO: texto de exemplo — substituir por fatos reais da trajetória (cidade natal, veículos, coberturas, formação).
 const PARAGRAPHS = [
-  `${CANDIDATE.name} construiu sua trajetória escutando as pessoas. Como repórter, passou anos nas ruas de Belo Horizonte registrando o que os moradores vivem no dia a dia: o buraco que nunca é tapado, a fila que não anda, a praça abandonada e a escola que precisa de atenção.`,
+  `${CANDIDATE.name} é apresentador do SBT TV Alterosa e conduz o podcast De Frente Comigo. Construiu sua trajetória escutando as pessoas. Como repórter, passou anos nas ruas de Belo Horizonte registrando o que os moradores vivem no dia a dia: o buraco que nunca é tapado, a fila que não anda, a praça abandonada e a escola que precisa de atenção.`,
   `Esse olhar de quem apura, pergunta e checa os fatos é o que ele leva para a política. Para ele, informação de qualidade é a base de qualquer decisão pública: sem dados claros, não há como cobrar resultado nem prestar contas à população.`,
   `A experiência de reportagem mostrou uma verdade simples: os problemas de BH quase sempre são conhecidos por quem mora no bairro, mas raramente chegam a quem decide. Por isso, a ideia central do mandato é ser um canal aberto, com portas abertas para a população apontar o que precisa ser resolvido.`,
   `Entre as prioridades estão saúde com filas transparentes, educação infantil com mais vagas, zeladoria com prazo e resposta, mobilidade com calçadas e transporte decentes, e espaços públicos seguros e bem cuidados. Em todas, o compromisso é o mesmo: informar, fiscalizar e acompanhar até o fim.`,

@@ -5,6 +5,7 @@ import { CANDIDATE } from '../data/config';
 const LINKS = [
   { href: '#propostas', label: 'Propostas' },
   { href: '#sobre', label: 'Quem é' },
+  { href: '#podcast', label: 'Podcast' },
   { href: '#mural', label: 'Mural' },
 ];
 

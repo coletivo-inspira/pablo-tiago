@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Proposals from './components/Proposals';
 import About from './components/About';
+import Podcast from './components/Podcast';
 import Demands from './components/Demands';
 import Footer from './components/Footer';
 
@@ -13,6 +14,7 @@ export default function App() {
         <Hero />
         <Proposals />
         <About />
+        <Podcast />
         <Demands />
       </main>
       <Footer />
