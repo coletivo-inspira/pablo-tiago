@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  // GitHub Pages serve em /pablo-tiago/. Se usar domínio próprio, troque para '/'.
-  base: '/pablo-tiago/',
+  // Domínio próprio: o site é servido na raiz. Sem domínio (github.io/pablo-tiago/), use '/pablo-tiago/'.
+  base: '/',
 });

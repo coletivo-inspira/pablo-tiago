@@ -27,7 +27,7 @@ Vite + React 19 + TypeScript + Tailwind v4 (plugin `@tailwindcss/vite`) + framer
 
 ## Deploy
 GitHub Pages em `https://coletivo-inspira.github.io/pablo-tiago/` (workflow em `.github/workflows/deploy.yml`, copia `index.html` para `404.html`).
-- `vite.config.ts` usa `base: '/pablo-tiago/'` e `main.tsx` usa `import.meta.env.BASE_URL`. **Nunca** escreva caminhos absolutos como `/algo`; use `import.meta.env.BASE_URL`.
+- `vite.config.ts` usa `base: '/'` (domínio próprio, via `public/CNAME`; sem domínio, volte para `'/pablo-tiago/'`) e `main.tsx` usa `import.meta.env.BASE_URL`. **Nunca** escreva caminhos absolutos como `/algo`; use `import.meta.env.BASE_URL`.
 - Se for adotado domínio próprio, volte `base` para `'/'`.
 
 ## Design
