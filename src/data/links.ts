@@ -1,8 +1,9 @@
-import { Send, ListChecks, Mic, MessageSquare, type LucideIcon } from 'lucide-react';
+import { Send, ListChecks, Mic, MessageSquare, Radio, type LucideIcon } from 'lucide-react';
 import { FaInstagram, FaYoutube, FaWhatsapp } from 'react-icons/fa';
 import type { IconType } from 'react-icons';
 import { CANDIDATE } from './config';
 import { PODCAST } from './podcast';
+import { ALTEROSA } from './alterosa';
 
 const base = import.meta.env.BASE_URL;
 
@@ -47,6 +48,13 @@ export const bioLinks: BioLinkItem[] = [
     description: 'Veja o que a população pediu',
     url: `${base}#mural`,
     icon: MessageSquare,
+  },
+  {
+    title: 'Alterosa Agora ao vivo',
+    description: 'Assista às transmissões no YouTube',
+    url: ALTEROSA.channelUrl,
+    icon: Radio,
+    external: true,
   },
   {
     title: 'Podcast De Frente Comigo',
